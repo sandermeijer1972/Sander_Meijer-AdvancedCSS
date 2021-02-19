@@ -1,0 +1,75 @@
+body {
+  background-color: #c3cfe2;
+  margin: 0;
+}
+
+.mediabuttons {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 600px;
+}
+
+.mediabuttons li {
+  border: none;
+  margin: 0;
+  padding: 10px;
+  width: 320px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100px 220px;
+      grid-template-columns: 100px 220px;
+  -webkit-transform: translateX(270px);
+          transform: translateX(270px);
+  -webkit-transition: -webkit-transform 2000ms;
+  transition: -webkit-transform 2000ms;
+  transition: transform 2000ms;
+  transition: transform 2000ms, -webkit-transform 2000ms;
+}
+
+.mediabuttons li img {
+  height: 40px;
+}
+
+.mediabuttons li a {
+  text-decoration: underline;
+  color: white;
+  font-size: 20px;
+}
+
+.mediabuttons li:hover {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+.mediabuttons__blog {
+  background-color: #e17b77;
+}
+
+.mediabuttons__twitter {
+  background-color: #00aced;
+}
+
+.mediabuttons__linkedin {
+  background-color: #007bb6;
+}
+
+.mediabuttons__facebook {
+  background-color: #3b5998;
+}
+
+.mediabuttons__github {
+  background-color: #333333;
+}
+/*# sourceMappingURL=styles.css.map */
