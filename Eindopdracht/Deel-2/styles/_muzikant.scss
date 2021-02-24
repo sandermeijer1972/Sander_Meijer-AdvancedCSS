@@ -22,8 +22,10 @@
       border: solid 5px red;
       border-radius: 50%;
       width: 150px;
-      visibility: visible;
-      transition-delay: 1000ms;
+      opacity: 1;
+      transition-property: all;
+      transition-duration: 1500ms;
+      transition-delay: 200ms;
       transform: translateY(70px);
     }
     &--naam {
@@ -52,7 +54,8 @@
       font-size: 40px;
     }
     &--tooltip {
-      visibility: hidden;               
+      opacity: 0;
+      transition-duration: 1500ms;
       transition-delay: 1000ms;
       transform: translateY(-60px);
     }
@@ -67,9 +70,9 @@
     background-color: black;
   }
   .muzikant__boven--foto {
-    visibility: hidden;
+    opacity: 0;
   }
   .muzikant__onder--tooltip {
-    visibility: visible;
+    opacity: 1;
   }
 }

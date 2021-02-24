@@ -1,54 +1,53 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #c3cfe2;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #c3cfe2;
 }
 
 .testimonial {
-    border: none;
-    border-radius: 20px;
-    max-width: 500px;
-    margin: 20px;
-    padding: 0;
-    box-shadow: 2px 2px 15px 2px grey;
-    &__bovenkant {
-        background-color: #ffffff;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        padding: 40px;
-        padding-bottom: 0;
-        text-align: center;
-        &--tekst {
-            font-size: 26px;
-            line-height: 1.5;
-            color: grey;
-            font-style: bold;
-            text-align: left;
-        }
-        &--foto {
-            border: solid 8px white;
-            border-radius: 50%;
-            width: 150px;
-            transform: translateY(80px);
-        }
+  border: none;
+  border-radius: 20px;
+  max-width: 500px;
+  margin: 20px;
+  padding: 0;
+  box-shadow: 2px 2px 15px 2px grey;
+  &__bovenkant {
+    background-color: #ffffff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px 40px 0 40px;
+    text-align: center;
+    &--tekst {
+      font-size: 26px;
+      line-height: 1.5;
+      color: grey;
+      font-style: bold;
+      text-align: left;
     }
-    &__onderkant {
-        background-color: #686de0;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-        padding: 40px;
-        padding-top: 100px;
-        text-align: center;
-        &--naam {
-            text-transform: uppercase;
-            color: #ffffff;
-            font-size: 25px;    
-            letter-spacing: 2px;
-        }
-        &--website {
-            color: #c3cfe2;
-            font-size: 20px;
-            margin: 15px;
-            font-style: bold;
-        }
+    &--foto {
+      border: solid 8px white;
+      border-radius: 50%;
+      width: 150px;
+      transform: translateY(80px);
     }
+  }
+  &__onderkant {
+    background-color: #686de0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 40px;
+    padding-top: 100px;
+    text-align: center;
+    &--naam {
+      text-transform: uppercase;
+      color: #ffffff;
+      font-size: 25px;
+      letter-spacing: 2px;
+    }
+    &--website {
+      color: #c3cfe2;
+      font-size: 20px;
+      margin: 15px;
+      font-style: bold;
+    }
+  }
 }

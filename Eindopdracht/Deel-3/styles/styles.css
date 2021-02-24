@@ -1,6 +1,7 @@
 body {
   background-color: #c3cfe2;
   margin: 0;
+  overflow-x: hidden;
 }
 
 .mediabuttons {

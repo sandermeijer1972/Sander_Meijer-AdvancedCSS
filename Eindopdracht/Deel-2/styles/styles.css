@@ -33,9 +33,13 @@
   border: solid 5px red;
   border-radius: 50%;
   width: 150px;
-  visibility: visible;
-  -webkit-transition-delay: 1000ms;
-          transition-delay: 1000ms;
+  opacity: 1;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 1500ms;
+          transition-duration: 1500ms;
+  -webkit-transition-delay: 200ms;
+          transition-delay: 200ms;
   -webkit-transform: translateY(70px);
           transform: translateY(70px);
 }
@@ -78,7 +82,9 @@
 }
 
 .muzikant__onder--tooltip {
-  visibility: hidden;
+  opacity: 0;
+  -webkit-transition-duration: 1500ms;
+          transition-duration: 1500ms;
   -webkit-transition-delay: 1000ms;
           transition-delay: 1000ms;
   -webkit-transform: translateY(-60px);
@@ -96,11 +102,11 @@
 }
 
 .muzikant:hover .muzikant__boven--foto {
-  visibility: hidden;
+  opacity: 0;
 }
 
 .muzikant:hover .muzikant__onder--tooltip {
-  visibility: visible;
+  opacity: 1;
 }
 
 body {

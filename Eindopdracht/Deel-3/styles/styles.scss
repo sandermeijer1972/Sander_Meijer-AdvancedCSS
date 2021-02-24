@@ -1,7 +1,8 @@
 body {
   background-color: #c3cfe2;
   margin: 0;
-}
+  overflow-x: hidden;
+ }
 
 .mediabuttons {
   list-style-type: none;
@@ -20,18 +21,18 @@ body {
     transform: translateX(270px);
     transition: transform 2000ms;
     img {
-        height: 40px;
+      height: 40px;
     }
     a {
-        text-decoration: underline;
-        color: white;
-        font-size: 20px;
+      text-decoration: underline;
+      color: white;
+      font-size: 20px;
     }
   }
   li:hover {
     transform: translateX(0px);
   }
-  &__blog{
+  &__blog {
     background-color: #e17b77;
   }
   &__twitter {
@@ -39,17 +40,11 @@ body {
   }
   &__linkedin {
     background-color: #007bb6;
-  }  
+  }
   &__facebook {
     background-color: #3b5998;
-  }  
+  }
   &__github {
     background-color: #333333;
   }
 }
-
-
-
-
-
-
